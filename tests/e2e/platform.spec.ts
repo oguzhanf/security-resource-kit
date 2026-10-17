@@ -732,6 +732,7 @@ test('technical-reference typography and page headings contain no promotional co
   ] as const;
   for (const [path, heading] of pages) {
     await page.goto(path);
+    if (path === '/') await expect(page.getByRole('table', { name: 'All training areas', exact: true })).toBeVisible();
     const title = page.getByRole('heading', { name: heading, exact: true });
     await expect(title).toBeVisible();
     const typography = await title.evaluate((element) => {
