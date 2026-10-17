@@ -738,7 +738,7 @@ test('technical-reference typography and page headings contain no promotional co
       const style = getComputedStyle(element);
       return { family: style.fontFamily, size: parseFloat(style.fontSize), weight: style.fontWeight };
     });
-    expect(typography.family.startsWith('Verdana')).toBe(true);
+    expect(typography.family, `${path} heading font`).toMatch(/^["']?Verdana["']?(?:\s*,|$)/iu);
     expect(typography.size).toBeLessThanOrEqual(18);
     expect(typography.weight).toBe('700');
     await expect(page.locator('body')).not.toContainText('Fewer words. Deeper understanding.');
