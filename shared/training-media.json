@@ -1,0 +1,46 @@
+[
+  {
+    "file": "defender-incident-graph.png",
+    "sourceSha256": "2f644b8c65e9169ecc7a145c4c67d253b6fce419ab520a3f776951c66a032854",
+    "outputSha256": "c941d62625126330c23e17144ba1dd16eba86bd910dc153ce73fadd0003b6720",
+    "sourceId": "xdr-incident-cases",
+    "sourceUrl": "https://learn.microsoft.com/en-us/defender-xdr/media/investigate-incident-cases/investigate-incident-cases-attack-story.png",
+    "reviewedAt": "2026-10-17",
+    "crop": { "left": 0, "top": 80, "width": 1672, "height": 861 },
+    "masks": [],
+    "privacyReview": "Removed the incident title. All remaining entity labels are generic Device, User, or User account. No tenant IDs, usernames, device names, domains, emails, or avatars remain."
+  },
+  {
+    "file": "defender-hunting-filter-fields.png",
+    "sourceSha256": "2b672df95b4402bae9b2cf44abd32db9acd4295684dae2229b2f98ce74e6b38a",
+    "outputSha256": "0a44324c9e18d5686c1c5fe768d0114f25ca3e9ee40761bfcef5c9950c508199",
+    "sourceId": "xdr-hunting-results",
+    "sourceUrl": "https://learn.microsoft.com/en-us/defender-xdr/media/advanced-hunting-query-results/add-filter2.png",
+    "reviewedAt": "2026-10-17",
+    "crop": { "left": 154, "top": 72, "width": 245, "height": 645 },
+    "masks": [],
+    "privacyReview": "Retained only the Add filter menu and schema field names. Removed the entire query and result rows, including any values."
+  },
+  {
+    "file": "sentinel-indicator-metadata.png",
+    "sourceSha256": "0187131aa30d5fbdab866f77af7155c67fe1e877e2dc52502437595d4633eae3",
+    "outputSha256": "3a6600a48dd984755210d523646867454cfbdbbc1d9a5e761c2fdb6688f8eb02",
+    "sourceId": "ti-sentinel",
+    "sourceUrl": "https://learn.microsoft.com/en-us/azure/sentinel/media/work-with-threat-indicators/common-metadata-stix-object-reduced.png",
+    "reviewedAt": "2026-10-17",
+    "crop": { "left": 0, "top": 255, "width": 445, "height": 385 },
+    "masks": [],
+    "privacyReview": "Retained only empty metadata controls, confidence, TLP, and relationship fields. Removed date, time, source, and any record content."
+  },
+  {
+    "file": "sentinel-ingestion-rule-controls.png",
+    "sourceSha256": "b2b9f96e38506982e8453b6043b52625c8dff7cb72885a0bd4de4a93636090fb",
+    "outputSha256": "4f263343d7a54c6fa8a02c71adba0785064e6ff9508f2eed705fa9958ce4eb46",
+    "sourceId": "ti-sentinel",
+    "sourceUrl": "https://learn.microsoft.com/en-us/azure/sentinel/media/work-with-threat-indicators/new-ingestion-rule.png",
+    "reviewedAt": "2026-10-17",
+    "crop": { "left": 0, "top": 126, "width": 579, "height": 548 },
+    "masks": [{ "left": 355, "top": 96, "width": 136, "height": 31 }],
+    "privacyReview": "Removed the rule name and ordering section. Irreversibly masked the selected provider/source value. Only generic indicator, confidence, validity, tag, and status controls remain."
+  }
+]

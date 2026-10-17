@@ -1,0 +1,14 @@
+node_modules/
+.npmrc
+dist/
+.wrangler/
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
+wrangler.production.json
+test-results/
+playwright-report/
+coverage/
+*.log
+.DS_Store

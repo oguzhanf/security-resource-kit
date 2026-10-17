@@ -1,0 +1,56 @@
+name: Review upstream documentation
+
+on:
+  schedule:
+    - cron: "35 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  source-drift:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: "22"
+          cache: npm
+      - run: npm ci
+      - name: Verify approved fingerprints
+        id: sources
+        continue-on-error: true
+        run: npm run sources:check
+      - name: Record a technical-review request
+        if: steps.sources.outcome == 'failure'
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
+        with:
+          script: |
+            const { owner, repo } = context.repo;
+            const title = "Microsoft documentation verification requires technical review";
+            const label = "content-review";
+            try {
+              await github.rest.issues.getLabel({ owner, repo, name: label });
+            } catch (error) {
+              if (error.status !== 404) throw error;
+              await github.rest.issues.createLabel({ owner, repo, name: label, color: "b08800" });
+            }
+            const body = [
+              "One or more sources changed or could not be verified.",
+              "",
+              `Review the [check output](${context.serverUrl}/${owner}/${repo}/actions/runs/${context.runId}).`,
+              "Validate public primary documentation, update affected lessons/revisions, and approve only reviewed source IDs.",
+              "This workflow does not automatically change content, approve fingerprints, or renew review dates.",
+              "",
+              `Last verification attempt: ${new Date().toISOString()}`,
+            ].join("\n");
+            const open = await github.rest.issues.listForRepo({ owner, repo, labels: label, state: "open", per_page: 100 });
+            const existing = open.data.find((issue) => issue.title === title && !issue.pull_request);
+            if (existing) {
+              await github.rest.issues.update({ owner, repo, issue_number: existing.number, body });
+            } else {
+              await github.rest.issues.create({ owner, repo, title, body, labels: [label] });
+            }

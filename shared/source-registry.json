@@ -1,0 +1,254 @@
+[
+  {
+    "id": "identities",
+    "title": "Agent identities",
+    "url": "https://learn.microsoft.com/en-us/entra/agent-id/agent-identities",
+    "upstream": "https://raw.githubusercontent.com/MicrosoftDocs/entra-docs/main/docs/agent-id/agent-identities.md"
+  },
+  {
+    "id": "principals",
+    "title": "Agent identities, service principals, and applications",
+    "url": "https://learn.microsoft.com/en-us/entra/agent-id/agent-service-principals",
+    "upstream": "https://raw.githubusercontent.com/MicrosoftDocs/entra-docs/main/docs/agent-id/agent-service-principals.md"
+  },
+  {
+    "id": "architecture",
+    "title": "Plan your agent identity architecture",
+    "url": "https://learn.microsoft.com/en-us/entra/agent-id/how-to-plan-agent-identity-architecture",
+    "upstream": "https://raw.githubusercontent.com/MicrosoftDocs/entra-docs/main/docs/agent-id/how-to-plan-agent-identity-architecture.md"
+  },
+  {
+    "id": "protocols",
+    "title": "Authentication protocols in agents",
+    "url": "https://learn.microsoft.com/en-us/entra/agent-id/agent-oauth-protocols",
+    "upstream": "https://raw.githubusercontent.com/MicrosoftDocs/entra-docs/main/docs/agent-id/agent-oauth-protocols.md"
+  },
+  {
+    "id": "inheritance",
+    "title": "Inheritable permissions and required resource access",
+    "url": "https://learn.microsoft.com/en-us/entra/agent-id/concept-inheritable-permissions",
+    "upstream": "https://raw.githubusercontent.com/MicrosoftDocs/entra-docs/main/docs/agent-id/concept-inheritable-permissions.md"
+  },
+  {
+    "id": "access",
+    "title": "Conditional Access for agents",
+    "url": "https://learn.microsoft.com/en-us/entra/identity/conditional-access/agent-id",
+    "upstream": "https://raw.githubusercontent.com/MicrosoftDocs/entra-docs/main/docs/identity/conditional-access/agent-id.md"
+  },
+  {
+    "id": "claims",
+    "title": "Token claims reference for agent IDs",
+    "url": "https://learn.microsoft.com/en-us/entra/agent-id/agent-token-claims",
+    "upstream": "https://raw.githubusercontent.com/MicrosoftDocs/entra-docs/main/docs/agent-id/agent-token-claims.md"
+  },
+  {
+    "id": "containment",
+    "title": "Disable agent identities in your tenant",
+    "url": "https://learn.microsoft.com/en-us/entra/agent-id/disable-agent-identities",
+    "upstream": "https://raw.githubusercontent.com/MicrosoftDocs/entra-docs/main/docs/agent-id/disable-agent-identities.md"
+  },
+  {
+    "id": "operations",
+    "title": "Manage agent identities in your organization",
+    "url": "https://learn.microsoft.com/en-us/entra/agent-id/manage-agent-identities-admin",
+    "upstream": "https://raw.githubusercontent.com/MicrosoftDocs/entra-docs/main/docs/agent-id/manage-agent-identities-admin.md"
+  },
+  {
+    "id": "ti-retirement",
+    "title": "MDTI retirement and convergence: July 2026 announcement",
+    "url": "https://learn.microsoft.com/en-us/partner-center/announcements/2026-july#mdti-reaches-end-of-life-august-1-2026",
+    "upstream": "https://learn.microsoft.com/en-us/partner-center/announcements/2026-july?accept=text/markdown"
+  },
+  {
+    "id": "ti-portal",
+    "title": "Threat intelligence in Microsoft Defender",
+    "url": "https://learn.microsoft.com/en-us/defender-xdr/defender-threat-intelligence",
+    "upstream": "https://learn.microsoft.com/en-us/defender-xdr/defender-threat-intelligence?accept=text/markdown"
+  },
+  {
+    "id": "ti-isoc",
+    "title": "ISOC eligibility and workspace requirements (preview)",
+    "url": "https://learn.microsoft.com/en-us/defender-xdr/isoc-overview",
+    "upstream": "https://learn.microsoft.com/en-us/defender-xdr/isoc-overview?accept=text/markdown"
+  },
+  {
+    "id": "ti-entities",
+    "title": "Entity-page Threat Intelligence Insights (preview)",
+    "url": "https://learn.microsoft.com/en-us/defender-xdr/entity-page-threat-intelligence",
+    "upstream": "https://learn.microsoft.com/en-us/defender-xdr/entity-page-threat-intelligence?accept=text/markdown"
+  },
+  {
+    "id": "ti-explorer",
+    "title": "Intel explorer: investigations, STIX relationships, and export",
+    "url": "https://learn.microsoft.com/en-us/defender-xdr/threat-intelligence-explorer",
+    "upstream": "https://learn.microsoft.com/en-us/defender-xdr/threat-intelligence-explorer?accept=text/markdown"
+  },
+  {
+    "id": "ti-transition",
+    "title": "Transition to the new Defender Threat intelligence experience",
+    "url": "https://learn.microsoft.com/en-us/defender-xdr/threat-intelligence-transition",
+    "upstream": "https://learn.microsoft.com/en-us/defender-xdr/threat-intelligence-transition?accept=text/markdown"
+  },
+  {
+    "id": "ti-graph",
+    "title": "Microsoft Threat Intelligence Graph v1.0 APIs: current entitlement",
+    "url": "https://learn.microsoft.com/en-us/graph/api/resources/security-threatintelligence-overview?view=graph-rest-1.0",
+    "upstream": "https://learn.microsoft.com/en-us/graph/api/resources/security-threatintelligence-overview?view=graph-rest-1.0&accept=text/markdown"
+  },
+  {
+    "id": "ti-graph-beta",
+    "title": "Graph beta TI overview: entitlement and beta limitations",
+    "url": "https://learn.microsoft.com/en-us/graph/api/resources/security-threatintelligence-overview?view=graph-rest-beta",
+    "upstream": "https://learn.microsoft.com/en-us/graph/api/resources/security-threatintelligence-overview?view=graph-rest-beta&accept=text/markdown"
+  },
+  {
+    "id": "ti-host",
+    "title": "Graph v1.0: Get host",
+    "url": "https://learn.microsoft.com/en-us/graph/api/security-host-get?view=graph-rest-1.0",
+    "upstream": "https://learn.microsoft.com/en-us/graph/api/security-host-get?view=graph-rest-1.0&accept=text/markdown"
+  },
+  {
+    "id": "ti-pdns",
+    "title": "Graph v1.0: List passiveDns and required record-type filter",
+    "url": "https://learn.microsoft.com/en-us/graph/api/security-host-list-passivedns?view=graph-rest-1.0",
+    "upstream": "https://learn.microsoft.com/en-us/graph/api/security-host-list-passivedns?view=graph-rest-1.0&accept=text/markdown"
+  },
+  {
+    "id": "ti-hunting",
+    "title": "Graph v1.0: runHuntingQuery",
+    "url": "https://learn.microsoft.com/en-us/graph/api/security-security-runhuntingquery?view=graph-rest-1.0",
+    "upstream": "https://learn.microsoft.com/en-us/graph/api/security-security-runhuntingquery?view=graph-rest-1.0&accept=text/markdown"
+  },
+  {
+    "id": "ti-network",
+    "title": "DeviceNetworkEvents hunting schema",
+    "url": "https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-devicenetworkevents-table",
+    "upstream": "https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-devicenetworkevents-table?accept=text/markdown"
+  },
+  {
+    "id": "ti-sentinel",
+    "title": "Sentinel indicator management and ThreatIntelIndicators",
+    "url": "https://learn.microsoft.com/en-us/azure/sentinel/work-with-threat-indicators",
+    "upstream": "https://learn.microsoft.com/en-us/azure/sentinel/work-with-threat-indicators?accept=text/markdown"
+  },
+  {
+    "id": "ti-upload",
+    "title": "Sentinel threat intelligence upload API (preview)",
+    "url": "https://learn.microsoft.com/en-us/azure/sentinel/connect-threat-intelligence-upload-api",
+    "upstream": "https://learn.microsoft.com/en-us/azure/sentinel/connect-threat-intelligence-upload-api?accept=text/markdown"
+  },
+  {
+    "id": "ti-reputation",
+    "title": "Graph v1.0: Get host reputation",
+    "url": "https://learn.microsoft.com/en-us/graph/api/security-host-get-reputation?view=graph-rest-1.0",
+    "upstream": "https://learn.microsoft.com/en-us/graph/api/security-host-get-reputation?view=graph-rest-1.0&accept=text/markdown"
+  },
+  {
+    "id": "ti-profile-indicators",
+    "title": "Graph v1.0: List intel-profile indicators",
+    "url": "https://learn.microsoft.com/en-us/graph/api/security-intelligenceprofile-list-indicators?view=graph-rest-1.0",
+    "upstream": "https://learn.microsoft.com/en-us/graph/api/security-intelligenceprofile-list-indicators?view=graph-rest-1.0&accept=text/markdown"
+  },
+  {
+    "id": "xdr-correlation",
+    "title": "Defender alert correlation and incident merging",
+    "url": "https://learn.microsoft.com/en-us/defender-xdr/alerts-incidents-correlation",
+    "upstream": "https://learn.microsoft.com/en-us/defender-xdr/alerts-incidents-correlation?accept=text/markdown"
+  },
+  {
+    "id": "xdr-incident-cases",
+    "title": "Investigate incident cases (preview)",
+    "url": "https://learn.microsoft.com/en-us/defender-xdr/investigate-incident-cases",
+    "upstream": "https://learn.microsoft.com/en-us/defender-xdr/investigate-incident-cases?accept=text/markdown"
+  },
+  {
+    "id": "xdr-alert-info",
+    "title": "AlertInfo advanced hunting schema",
+    "url": "https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-alertinfo-table",
+    "upstream": "https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-alertinfo-table?accept=text/markdown"
+  },
+  {
+    "id": "xdr-alert-evidence",
+    "title": "AlertEvidence advanced hunting schema",
+    "url": "https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-alertevidence-table",
+    "upstream": "https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-alertevidence-table?accept=text/markdown"
+  },
+  {
+    "id": "xdr-device-timeline",
+    "title": "Investigate devices and device timelines",
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/investigate-machines",
+    "upstream": "https://learn.microsoft.com/en-us/defender-endpoint/investigate-machines?accept=text/markdown"
+  },
+  {
+    "id": "xdr-hunting-practices",
+    "title": "Advanced hunting query best practices",
+    "url": "https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-best-practices",
+    "upstream": "https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-best-practices?accept=text/markdown"
+  },
+  {
+    "id": "xdr-process-events",
+    "title": "DeviceProcessEvents advanced hunting schema",
+    "url": "https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-deviceprocessevents-table",
+    "upstream": "https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-deviceprocessevents-table?accept=text/markdown"
+  },
+  {
+    "id": "xdr-hunting-overview",
+    "title": "Advanced hunting access, freshness, retention, and limits",
+    "url": "https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-overview",
+    "upstream": "https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-overview?accept=text/markdown"
+  },
+  {
+    "id": "xdr-custom-detections",
+    "title": "Create custom detection rules",
+    "url": "https://learn.microsoft.com/en-us/defender-xdr/custom-detection-rules",
+    "upstream": "https://learn.microsoft.com/en-us/defender-xdr/custom-detection-rules?accept=text/markdown"
+  },
+  {
+    "id": "xdr-manage-detections",
+    "title": "Manage custom detection rules and review rule runs",
+    "url": "https://learn.microsoft.com/en-us/defender-xdr/custom-detection-manage",
+    "upstream": "https://learn.microsoft.com/en-us/defender-xdr/custom-detection-manage?accept=text/markdown"
+  },
+  {
+    "id": "xdr-action-center",
+    "title": "Action center, remediation permissions, and Endpoint AIR change",
+    "url": "https://learn.microsoft.com/en-us/defender-xdr/m365d-action-center",
+    "upstream": "https://learn.microsoft.com/en-us/defender-xdr/m365d-action-center?accept=text/markdown"
+  },
+  {
+    "id": "xdr-permissions",
+    "title": "Microsoft Defender unified RBAC permission details",
+    "url": "https://learn.microsoft.com/en-us/defender-xdr/custom-permissions-details",
+    "upstream": "https://learn.microsoft.com/en-us/defender-xdr/custom-permissions-details?accept=text/markdown"
+  },
+  {
+    "id": "xdr-hunting-actions",
+    "title": "Take response actions on advanced hunting results",
+    "url": "https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-take-action",
+    "upstream": "https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-take-action?accept=text/markdown"
+  },
+  {
+    "id": "xdr-enable",
+    "title": "Turn on Microsoft Defender XDR and deploy supported services",
+    "url": "https://learn.microsoft.com/en-us/defender-xdr/m365d-enable",
+    "upstream": "https://learn.microsoft.com/en-us/defender-xdr/m365d-enable?accept=text/markdown"
+  },
+  {
+    "id": "xdr-device-info",
+    "title": "DeviceInfo advanced hunting schema",
+    "url": "https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-deviceinfo-table",
+    "upstream": "https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-deviceinfo-table?accept=text/markdown"
+  },
+  {
+    "id": "xdr-security-summary",
+    "title": "Unified security summary scope, access, and reporting intervals",
+    "url": "https://learn.microsoft.com/en-us/defender-xdr/security-summary-report",
+    "upstream": "https://learn.microsoft.com/en-us/defender-xdr/security-summary-report?accept=text/markdown"
+  },
+  {
+    "id": "xdr-hunting-results",
+    "title": "Work with advanced hunting query results and filters",
+    "url": "https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-query-results",
+    "upstream": "https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-query-results?accept=text/markdown"
+  }
+]

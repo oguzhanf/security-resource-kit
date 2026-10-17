@@ -1,0 +1,51 @@
+name: Publish permanent cloud site
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: production-cloud-publication
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment: production
+    timeout-minutes: 15
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      D1_DATABASE_ID: ${{ vars.D1_DATABASE_ID }}
+      WORKER_NAME: ${{ vars.WORKER_NAME }}
+      APP_ORIGIN: ${{ vars.APP_ORIGIN }}
+      OPERATOR_NAME: ${{ vars.OPERATOR_NAME }}
+      CONTACT_URL: ${{ vars.CONTACT_URL }}
+      TURNSTILE_SITE_KEY: ${{ vars.TURNSTILE_SITE_KEY }}
+      LEGAL_APPROVED: ${{ vars.LEGAL_APPROVED }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: "22"
+          cache: npm
+      - run: npm ci
+      - run: npm run check
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:e2e
+      - name: Validate existing production configuration
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -n "$CLOUDFLARE_API_TOKEN"
+          test -n "$CLOUDFLARE_ACCOUNT_ID"
+          test -n "$D1_DATABASE_ID"
+          test -n "$WORKER_NAME"
+          test -n "$APP_ORIGIN"
+          args=(--database-id "$D1_DATABASE_ID" --name "$WORKER_NAME" --origin "$APP_ORIGIN" --operator-name "$OPERATOR_NAME" --contact-url "$CONTACT_URL" --turnstile-site-key "$TURNSTILE_SITE_KEY")
+          if [ "$LEGAL_APPROVED" = "true" ]; then args+=(--legal-approved); fi
+          npm run cloud:setup -- "${args[@]}"
+      - run: npm run deploy

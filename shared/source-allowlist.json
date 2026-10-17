@@ -1,0 +1,8 @@
+[
+  {"host":"raw.githubusercontent.com","pathPrefix":"/MicrosoftDocs/entra-docs/main/docs/"},
+  {"host":"learn.microsoft.com","pathPrefix":"/en-us/defender-xdr/"},
+  {"host":"learn.microsoft.com","pathPrefix":"/en-us/graph/api/"},
+  {"host":"learn.microsoft.com","pathPrefix":"/en-us/azure/sentinel/"},
+  {"host":"learn.microsoft.com","pathPrefix":"/en-us/partner-center/announcements/"},
+  {"host":"learn.microsoft.com","pathPrefix":"/en-us/defender-endpoint/investigate-machines"}
+]

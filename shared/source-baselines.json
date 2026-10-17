@@ -1,0 +1,170 @@
+{
+  "access": {
+    "sha256": "b858a8a8ee8ae2a294001ef61d4451c2beac7a29f86696f200b00788e0406960",
+    "approvedAt": "2026-10-17"
+  },
+  "architecture": {
+    "sha256": "7acd1d98fe80f20ecf00fbe5f29a0a70e58fa65c24d59e9baba1dd6e4c444a8e",
+    "approvedAt": "2026-10-06"
+  },
+  "principals": {
+    "sha256": "7a0d5b5efe98776784bbf659d02dc70d3d11edd392ce0c05b7b298e60e9afdfb",
+    "approvedAt": "2026-10-06"
+  },
+  "operations": {
+    "sha256": "7248808ae4109130b051770c6ab6b37172cb546ff27b65d1098d0f5f5af91e1f",
+    "approvedAt": "2026-10-06"
+  },
+  "claims": {
+    "sha256": "3ee1a082a2971aa7fb2f17ad032f41899bc93f0f08d1ca01590446ef001701bb",
+    "approvedAt": "2026-10-06"
+  },
+  "identities": {
+    "sha256": "06f3f7e9df5d92e9083bdafec925c5f74782ad15e6474eaac759bb445c4f3421",
+    "approvedAt": "2026-10-06"
+  },
+  "containment": {
+    "sha256": "1068228d07dea03d0e8ff5b04140e2967710dde0baaf68425009cc2423a68048",
+    "approvedAt": "2026-10-06"
+  },
+  "protocols": {
+    "sha256": "42f7707b6c97ce0770aa202bb3d37fefb1ffb896a2cb924628eef2a82491515d",
+    "approvedAt": "2026-10-06"
+  },
+  "inheritance": {
+    "sha256": "34e087fe741994d2169d59ca489d449c3c23dad304c98797d4c7b67005776730",
+    "approvedAt": "2026-10-06"
+  },
+  "ti-retirement": {
+    "sha256": "6d088f0ac6973ed1c82a9433d0992471e66bd74a2b0bcd43484b6ed6a1a352fd",
+    "approvedAt": "2026-10-07"
+  },
+  "ti-sentinel": {
+    "sha256": "579c594a55defeda2036db40815fd84aaabecc345238d059d2b0c5fe1a7a3f10",
+    "approvedAt": "2026-10-07"
+  },
+  "ti-graph": {
+    "sha256": "c8bd286c0f68862c19708655b77e998a512198efadd519448e718c6825bfce1f",
+    "approvedAt": "2026-10-07"
+  },
+  "ti-isoc": {
+    "sha256": "ec79a829c01bd72a3b052cffb2788f601df0a8958dcdbe168e092ec992886031",
+    "approvedAt": "2026-10-07"
+  },
+  "ti-entities": {
+    "sha256": "e87218e37e4b08981f2a8c385b52d693890413d9db6f920ca9304786501ee361",
+    "approvedAt": "2026-10-07"
+  },
+  "ti-network": {
+    "sha256": "187d9230acdab10e1847fda5f7ee48e770a60c8e3f5770e8ef1c84e291d1105a",
+    "approvedAt": "2026-10-07"
+  },
+  "ti-graph-beta": {
+    "sha256": "413c5d5431490fe7f90526533ef89299439b219036b287d1689da82e6199941e",
+    "approvedAt": "2026-10-17"
+  },
+  "ti-host": {
+    "sha256": "cdf4f345bd8e1d0cb1df9c337ab2a860b5461eaeb539459365d7ae0c7fc830a1",
+    "approvedAt": "2026-10-17"
+  },
+  "ti-portal": {
+    "sha256": "62c7f223bb041acaff9e89976401a954d518a1d3f07110febf90e5fb0125c5f8",
+    "approvedAt": "2026-10-07"
+  },
+  "ti-explorer": {
+    "sha256": "fc8ebb0963df2f645f5aa9937011c77e96dd35606cdef6de8d46c85e77094ef5",
+    "approvedAt": "2026-10-07"
+  },
+  "ti-pdns": {
+    "sha256": "e2dcbbb22a9bb9b758768e5073369bdf58e85d94aaaaa622fee67862e1327e1d",
+    "approvedAt": "2026-10-17"
+  },
+  "ti-transition": {
+    "sha256": "bd04c256d285b388ec2649fd50b1901e681447598825a5ab06b668914cecb9e1",
+    "approvedAt": "2026-10-07"
+  },
+  "ti-upload": {
+    "sha256": "cda2465ee517dc9010c2753c0a7fa6b6483bc56c9f32ab005303b97ccb46ae8d",
+    "approvedAt": "2026-10-07"
+  },
+  "ti-hunting": {
+    "sha256": "3b286840317d026ae7c42acbc59b0ed09a0d05b85650ffab4d8224c945fa3b1c",
+    "approvedAt": "2026-10-17"
+  },
+  "ti-profile-indicators": {
+    "sha256": "db4aa21ec474ed1bb48bd06b89f90bce9040b1e8990c3675cb49bfd686b4625f",
+    "approvedAt": "2026-10-17"
+  },
+  "ti-reputation": {
+    "sha256": "bd25305b65d26eb926238d3b4c922614a990170797adf6d24f7cb5b5502a357d",
+    "approvedAt": "2026-10-17"
+  },
+  "xdr-alert-evidence": {
+    "sha256": "f2dbce9f7d4a32d457c0e7a44449578d72109ff41c8b896ede7da341d539822f",
+    "approvedAt": "2026-10-17"
+  },
+  "xdr-enable": {
+    "sha256": "60df91240795ec37409b98b92bb55e2986728d581a4cd39e125658a32f32639e",
+    "approvedAt": "2026-10-17"
+  },
+  "xdr-permissions": {
+    "sha256": "841c3052aa48cdd2fe7125d714e72c8dc82b7243510991cf9ff0b2299f4aaa9a",
+    "approvedAt": "2026-10-17"
+  },
+  "xdr-alert-info": {
+    "sha256": "132c38110d012ae5d240e097945613c6e101c41f6385d29bc08c1f7a5ed8b6f6",
+    "approvedAt": "2026-10-17"
+  },
+  "xdr-action-center": {
+    "sha256": "bf5d8d4f753bb55db48cbebbdb8cc687f96241257cb5a351a6021e07e4bafe03",
+    "approvedAt": "2026-10-17"
+  },
+  "xdr-hunting-overview": {
+    "sha256": "b2adda7076af55624fa675c504c067eccb0fc75a01b4233caa4f62157fcef725",
+    "approvedAt": "2026-10-17"
+  },
+  "xdr-manage-detections": {
+    "sha256": "10cc7bfc9983260105499a57ee9a9c9feb380752a4ff0f4ff1e56157b33316ff",
+    "approvedAt": "2026-10-17"
+  },
+  "xdr-hunting-actions": {
+    "sha256": "60de9c672a30eb6c0ec53cd47bf351aadd93302717eeb59d9f457dc3cf0c3e94",
+    "approvedAt": "2026-10-17"
+  },
+  "xdr-device-info": {
+    "sha256": "e7de8429fab520fe0cb3a740eb28f7c48b76a21cafba78d158a6730a5da92434",
+    "approvedAt": "2026-10-17"
+  },
+  "xdr-device-timeline": {
+    "sha256": "495a902b59a62ebc0a5eed785ea4ee3438406467f8751e825a17d3c1f5b29b19",
+    "approvedAt": "2026-10-17"
+  },
+  "xdr-incident-cases": {
+    "sha256": "50b16314f3dbf7bb7d0cfa130afab530d0ce6e015f242a48bbd9f01e8a232ed8",
+    "approvedAt": "2026-10-17"
+  },
+  "xdr-hunting-practices": {
+    "sha256": "2cdf3bd136aa4935cfbdc9844663f6812c11d7fa41a9bd4955fbc14ab670a51e",
+    "approvedAt": "2026-10-17"
+  },
+  "xdr-process-events": {
+    "sha256": "29a523736ea037d408601f5ffa4056fdc8a4ced69787f677acdec49e9311724f",
+    "approvedAt": "2026-10-17"
+  },
+  "xdr-custom-detections": {
+    "sha256": "52c9fd253157ba9f1f21e4c4872e0b5e954855156b3fe039852ac944d18a2146",
+    "approvedAt": "2026-10-17"
+  },
+  "xdr-correlation": {
+    "sha256": "73611a12a8ef7587f0bd66d07bbdaaea49d06d4e569ae9f61d5b880b0be05144",
+    "approvedAt": "2026-10-17"
+  },
+  "xdr-security-summary": {
+    "sha256": "19df6e3cb5f30e296b762ed63ed810381fd03d820434fb043e9eae0ad9ba18ba",
+    "approvedAt": "2026-10-17"
+  },
+  "xdr-hunting-results": {
+    "sha256": "6207150b48983ea1b0b1228ff8930f5bcd3c5a97a83b98861c1eaaf6b9c7da9c",
+    "approvedAt": "2026-10-17"
+  }
+}
